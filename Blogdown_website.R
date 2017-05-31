@@ -1,6 +1,6 @@
 # Install first time
-# devtools::install_github('rstudio/blogdown')
-# blogdown::install_hugo()
+  # devtools::install_github('rstudio/blogdown')
+  # blogdown::install_hugo()
 
 library(pacman)
 p_load(blogdown)
