@@ -27,7 +27,7 @@ weight = 1
 
 # Biography
 
-.Gorka Navarrete obtained his PhD in Cognitive Neuroscience in the Universidad de La Laguna (Spain). He worked as a postdoctoral fellow in the University of Hull (UK), Universidad de La Laguna (Spain) and York University (Canada). He is an Assistant professor at Universidad Adolfo Ibañez in Chile. 
+....Gorka Navarrete obtained his PhD in Cognitive Neuroscience in the Universidad de La Laguna (Spain). He worked as a postdoctoral fellow in the University of Hull (UK), Universidad de La Laguna (Spain) and York University (Canada). He is an Assistant professor at Universidad Adolfo Ibañez in Chile. 
 
 His main research focus is related to Bayesian reasoning, risk communication and decision making, as well as various things related to heuristics and biases and the neural basis of reasoning. He works as a part of an international network in the perception of beauty in architectural contexts. 
 
