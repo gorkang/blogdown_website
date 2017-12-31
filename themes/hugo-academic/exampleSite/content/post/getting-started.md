@@ -74,9 +74,6 @@ The core parameters for the website can be edited in the `config.toml` configura
 
 Edit your biography in the *about* widget `content/home/about.md` that you copied across from the `themes/academic/exampleSite/` folder. The research interests and qualifications are stored as `interests` and `education` variables. The academic qualifications are defined as multiples of `[[education.courses]]` and can be created or deleted as necessary. It's possible to completely hide the interests and education lists by deleting their respective variables.
 
-### Customize the homepage
-
-Refer to our guide on using [widgets]({{< ref "post/widgets.md" >}}) to customize your homepage.
 
 ### Add your content
 
