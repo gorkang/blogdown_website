@@ -26,7 +26,6 @@
 &lt;li&gt;Easily manage your homepage, blog posts, publications, talks, and projects&lt;/li&gt;
 &lt;li&gt;Configurable widgets available for Biography, Publications, Projects, News/Blog, Talks, and Contact&lt;/li&gt;
 &lt;li&gt;Need a different section? Just use the Custom widget!&lt;/li&gt;
-&lt;li&gt;Write in &lt;a href=&#34;&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
 &lt;li&gt;Social/academic network linking, &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, and &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; comments&lt;/li&gt;
 &lt;li&gt;Responsive and mobile friendly&lt;/li&gt;
 &lt;li&gt;Simple and refreshing one page design&lt;/li&gt;
@@ -206,11 +205,9 @@ $ git log --pretty=oneline --abbrev-commit --decorate HEAD..upstream/master
       <pubDate>Wed, 20 Apr 2016 11:00:00 +0000</pubDate>
       
       <guid>/post/managing-content/</guid>
-      <description>&lt;p&gt;This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about &lt;a href=&#34;&#34; target=&#34;_blank&#34;&gt;writing content with Markdown, LaTeX, and Shortcodes&lt;/a&gt;.&lt;/p&gt;
+      <description>
 
 &lt;p&gt;To enable LaTeX math rendering for a page, you should include &lt;code&gt;math = true&lt;/code&gt; in the page&amp;rsquo;s &lt;code&gt;+++&lt;/code&gt; preamble, as demonstrated in the included example site. Otherwise, to enable math on the homepage or for all pages, you must globally set &lt;code&gt;math = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;To disable source code highlighting by default for all pages, set &lt;code&gt;highlight = false&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. You can then enable source code highlighting only on pages that need it by setting &lt;code&gt;highlight = true&lt;/code&gt; in that page&amp;rsquo;s preamble. See the &lt;a href=&#34;&#34; target=&#34;_blank&#34;&gt;code-highlighting docs&lt;/a&gt; for more details.&lt;/p&gt;
 
 &lt;p&gt;To display a featured image in content page headers, the parameters below can be inserted towards the end of a page&amp;rsquo;s &lt;code&gt;+++&lt;/code&gt; preamble. It is assumed that the image is located in your &lt;code&gt;static/img/&lt;/code&gt; folder, so the full path in the example below will be &lt;code&gt;static/img/headers/getting-started.png&lt;/code&gt;. The &lt;code&gt;caption&lt;/code&gt; parameter can be used to write an image caption or credit.&lt;/p&gt;
 
@@ -344,7 +341,8 @@ Below is an automatically generated list of all my blog posts!
 
 &lt;p&gt;You may then deploy your site by copying the &lt;code&gt;public/&lt;/code&gt; directory (by FTP, SFTP, WebDAV, Rsync, git push, etc.) to your production web server.&lt;/p&gt;
 
-&lt;p&gt;Note that running &lt;code&gt;hugo&lt;/code&gt; does not remove any previously generated files before building. Therefore, it&amp;rsquo;s best practice to delete your &lt;code&gt;public/&lt;/code&gt; directory prior to running &lt;code&gt;hugo&lt;/code&gt; to ensure no old or interim files are deployed to your server.&lt;/p&gt;</description>
+&lt;p&gt;Note that running &lt;code&gt;hugo&lt;/code&gt; does not remove any previously generated files before building. Therefore, it&amp;rsquo;s best practice to delete your &lt;code&gt;public/&lt;/code&gt; directory prior to running &lt;code&gt;hugo&lt;/code&gt; to ensure no old or interim files are deployed to your server.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

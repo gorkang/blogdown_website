@@ -227,11 +227,9 @@
 </div>
 
     <div class="article-style" itemprop="articleBody">
-      <p>This is a brief guide to managing content with the Academic framework. Content can include publications, projects, talks, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about <a href="" target="_blank">writing content with Markdown, LaTeX, and Shortcodes</a>.</p>
+      
 
 <p>To enable LaTeX math rendering for a page, you should include <code>math = true</code> in the page&rsquo;s <code>+++</code> preamble, as demonstrated in the included example site. Otherwise, to enable math on the homepage or for all pages, you must globally set <code>math = true</code> in <code>config.toml</code>.</p>
-
-<p>To disable source code highlighting by default for all pages, set <code>highlight = false</code> in <code>config.toml</code>. You can then enable source code highlighting only on pages that need it by setting <code>highlight = true</code> in that page&rsquo;s preamble. See the <a href="" target="_blank">code-highlighting docs</a> for more details.</p>
 
 <p>To display a featured image in content page headers, the parameters below can be inserted towards the end of a page&rsquo;s <code>+++</code> preamble. It is assumed that the image is located in your <code>static/img/</code> folder, so the full path in the example below will be <code>static/img/headers/getting-started.png</code>. The <code>caption</code> parameter can be used to write an image caption or credit.</p>
 
@@ -366,6 +364,7 @@ Below is an automatically generated list of all my blog posts!
 <p>You may then deploy your site by copying the <code>public/</code> directory (by FTP, SFTP, WebDAV, Rsync, git push, etc.) to your production web server.</p>
 
 <p>Note that running <code>hugo</code> does not remove any previously generated files before building. Therefore, it&rsquo;s best practice to delete your <code>public/</code> directory prior to running <code>hugo</code> to ensure no old or interim files are deployed to your server.</p>
+
     </div>
   </div>
 
