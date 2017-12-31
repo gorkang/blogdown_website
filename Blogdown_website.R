@@ -5,7 +5,8 @@
 library(pacman)
 p_load(blogdown)
 
-blogdown::new_site("Blogsdown_website/", install_hugo = T, theme = 'gcushen/hugo-academic')
+# First time
+  # blogdown::new_site("Blogsdown_website/", install_hugo = T, theme = 'gcushen/hugo-academic')
 
 
 
