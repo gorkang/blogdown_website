@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Academic</title>
-    <link>/project/</link>
-    <description>Recent content in Projects on Academic</description>
+    <title>Social Cognition on Academic</title>
+    <link>/tags/social-cognition/</link>
+    <description>Recent content in Social Cognition on Academic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Gorka Navarrete</copyright>
     <lastBuildDate>Thu, 27 Apr 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/project/" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/social-cognition/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Social Cognition and Executive Functions As Key Factors for Effective Pedagogy in Higher Education</title>
